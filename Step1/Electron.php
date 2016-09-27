@@ -1,10 +1,12 @@
 <?php
 
-class Particle
+class Electron
 {
-  
-  public function __construct($name) {
-    $this->name = $name;
+
+  private $name;
+
+  public function __construct() {
+    $this->name = 'Electron';
   }
 
   public function getName() {
